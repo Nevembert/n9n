@@ -35,7 +35,7 @@ import {
 	jsonParse,
 	ApplicationError,
 	sleep,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 import type {
 	GenericValue,
 	IAdditionalCredentialOptions,
@@ -60,7 +60,7 @@ import type {
 	RequestHelperFunctions,
 	Workflow,
 	WorkflowExecuteMode,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 import type { Token } from 'oauth-1.0a';
 import clientOAuth1 from 'oauth-1.0a';
 import { stringify } from 'qs';

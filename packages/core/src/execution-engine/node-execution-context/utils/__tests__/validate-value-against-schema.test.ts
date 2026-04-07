@@ -1,4 +1,4 @@
-import { ExpressionError, type IDataObject, type INode, type INodeType } from 'n8n-workflow';
+import { ExpressionError, type IDataObject, type INode, type INodeType } from 'n9n-workflow';
 
 import { validateValueAgainstSchema } from '../validate-value-against-schema';
 

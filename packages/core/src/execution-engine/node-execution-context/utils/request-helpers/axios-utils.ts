@@ -10,7 +10,7 @@ import {
 	isDomainAllowed,
 	type IHttpRequestOptions,
 	type IgnoreStatusErrorConfig,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 
 import type { SsrfBridge } from '@/execution-engine';
 import { createHttpProxyAgent, createHttpsProxyAgent } from '@/http-proxy';

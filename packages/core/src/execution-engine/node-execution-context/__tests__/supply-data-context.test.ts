@@ -15,13 +15,13 @@ import type {
 	NodeConnectionType,
 	IRunData,
 	WorkflowExpression,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 import {
 	ApplicationError,
 	createRunExecutionData,
 	ManualExecutionCancelledError,
 	NodeConnectionTypes,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 
 import { describeCommonTests } from './shared-tests';
 import { SupplyDataContext } from '../supply-data-context';

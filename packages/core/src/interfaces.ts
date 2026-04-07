@@ -2,7 +2,7 @@ import type {
 	ITriggerResponse,
 	IWorkflowSettings as IWorkflowSettingsWorkflow,
 	ValidationResult,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 
 export type Class<T = object, A extends unknown[] = unknown[]> = new (...args: A) => T;
 

@@ -7,13 +7,13 @@ import type {
 	INodePropertyOptions,
 	INodeType,
 	ResourceMapperTypeOptions,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 import {
 	ExpressionError,
 	isResourceMapperValue,
 	NodeHelpers,
 	validateFieldType,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 
 import type { ExtendedValidationResult } from '@/interfaces';
 

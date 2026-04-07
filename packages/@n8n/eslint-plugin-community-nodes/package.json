@@ -34,7 +34,7 @@
     "@n8n/typescript-config": "workspace:*",
     "@n8n/vitest-config": "workspace:*",
     "@types/node": "catalog:",
-    "n8n-workflow": "workspace:*",
+    "n9n-workflow": "workspace:*",
     "@typescript-eslint/rule-tester": "^8.35.0",
     "eslint-doc-generator": "^2.2.2",
     "eslint-plugin-eslint-plugin": "^7.0.0",
@@ -44,7 +44,7 @@
   },
   "peerDependencies": {
     "eslint": ">= 9",
-    "n8n-workflow": ">=2"
+    "n9n-workflow": ">=2"
   },
   "eslint-doc-generator": {
     "configEmoji": [

@@ -1,4 +1,4 @@
-import type { IExecuteData, INodeExecutionData } from 'n8n-workflow';
+import type { IExecuteData, INodeExecutionData } from 'n9n-workflow';
 
 /**
  * This method checks if preserveSourceOverwrite is enabled and if so, returns the source overwrite data.

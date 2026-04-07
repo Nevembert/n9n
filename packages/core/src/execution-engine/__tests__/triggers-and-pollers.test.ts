@@ -10,7 +10,7 @@ import type {
 	INodeTypes,
 	ITriggerFunctions,
 	IRun,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 
 import { ExecutionLifecycleHooks } from '../execution-lifecycle-hooks';
 import { TriggersAndPollers } from '../triggers-and-pollers';

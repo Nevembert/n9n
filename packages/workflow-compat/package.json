@@ -1,0 +1,17 @@
+{
+  "name": "n8n-workflow",
+  "version": "2.15.0",
+  "private": true,
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "require": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "dependencies": {
+    "n9n-workflow": "workspace:*"
+  }
+}

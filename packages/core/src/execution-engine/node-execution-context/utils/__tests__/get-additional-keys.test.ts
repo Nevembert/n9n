@@ -1,5 +1,5 @@
 import { mock } from 'jest-mock-extended';
-import type { IDataObject, IRunExecutionData, IWorkflowExecuteAdditionalData } from 'n8n-workflow';
+import type { IDataObject, IRunExecutionData, IWorkflowExecuteAdditionalData } from 'n9n-workflow';
 
 import { PLACEHOLDER_EMPTY_EXECUTION_ID } from '@/constants';
 import type { ExternalSecretsProxy } from '@/execution-engine/external-secrets-proxy';

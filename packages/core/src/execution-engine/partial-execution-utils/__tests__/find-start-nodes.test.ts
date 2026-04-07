@@ -9,7 +9,7 @@
 // XX denotes that the node is disabled
 // PD denotes that the node has pinned data
 
-import { type IPinData, type IRunData, type ExecutionError } from 'n8n-workflow';
+import { type IPinData, type IRunData, type ExecutionError } from 'n9n-workflow';
 
 import { createNodeData, toITaskData } from './helpers';
 import { DirectedGraph } from '../directed-graph';

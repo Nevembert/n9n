@@ -1,4 +1,4 @@
-import { NodeConnectionTypes } from 'n8n-workflow';
+import { NodeConnectionTypes } from 'n9n-workflow';
 import type {
 	INodeParameters,
 	INode,
@@ -6,7 +6,7 @@ import type {
 	IDataObject,
 	IConnections,
 	NodeConnectionType,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 
 interface StubNode {
 	name: string;

@@ -1,5 +1,5 @@
 import { ApplicationError } from '@n8n/errors';
-import type { INodeExecutionData, IDataObject } from 'n8n-workflow';
+import type { INodeExecutionData, IDataObject } from 'n9n-workflow';
 
 /**
  * Automatically put the objects under a 'json' key and don't error,

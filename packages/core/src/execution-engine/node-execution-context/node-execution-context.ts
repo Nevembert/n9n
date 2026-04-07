@@ -24,7 +24,7 @@ import type {
 	NodeTypeAndVersion,
 	Workflow,
 	WorkflowExecuteMode,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 import {
 	ApplicationError,
 	CHAT_TRIGGER_NODE_TYPE,
@@ -33,7 +33,7 @@ import {
 	NodeHelpers,
 	NodeOperationError,
 	UnexpectedError,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 
 import {
 	HTTP_REQUEST_AS_TOOL_NODE_TYPE,

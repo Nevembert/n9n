@@ -7,7 +7,7 @@ import type {
 	LoadedClass,
 	LoadedNodesAndCredentials,
 	LoadingDetails,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 import path from 'node:path';
 
 import { UnrecognizedCredentialTypeError, UnrecognizedNodeTypeError } from '../dist/errors';

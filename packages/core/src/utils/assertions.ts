@@ -4,7 +4,7 @@ import {
 	UnexpectedError,
 	type Workflow,
 	type WorkflowExecuteMode,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 
 export function assertExecutionDataExists(
 	executionData: IRunExecutionData['executionData'],

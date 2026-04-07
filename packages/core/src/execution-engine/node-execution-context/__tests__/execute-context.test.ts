@@ -12,13 +12,13 @@ import type {
 	INodeType,
 	INodeTypes,
 	ICredentialDataDecryptedObject,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 import {
 	ApplicationError,
 	ExpressionError,
 	NodeConnectionTypes,
 	type WorkflowExpression,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 
 import type { ExecutionLifecycleHooks } from '@/execution-engine/execution-lifecycle-hooks';
 

@@ -3,7 +3,7 @@ import { CronLoggingConfig } from '@n8n/config';
 import { Time } from '@n8n/constants';
 import { Service } from '@n8n/di';
 import { CronJob } from 'cron';
-import type { CronContext, Workflow } from 'n8n-workflow';
+import type { CronContext, Workflow } from 'n9n-workflow';
 
 import { ErrorReporter } from '@/errors';
 import { InstanceSettings } from '@/instance-settings';

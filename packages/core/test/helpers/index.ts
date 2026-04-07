@@ -12,8 +12,8 @@ import type {
 	NodeLoadingDetails,
 	WorkflowTestData,
 	INodeTypeData,
-} from 'n8n-workflow';
-import { ApplicationError, NodeHelpers } from 'n8n-workflow';
+} from 'n9n-workflow';
+import { ApplicationError, NodeHelpers } from 'n9n-workflow';
 import path from 'path';
 
 import { UnrecognizedNodeTypeError } from '@/errors';

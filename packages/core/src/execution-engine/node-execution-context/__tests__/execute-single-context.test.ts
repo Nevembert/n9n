@@ -12,8 +12,8 @@ import type {
 	INodeType,
 	INodeTypes,
 	ICredentialDataDecryptedObject,
-} from 'n8n-workflow';
-import { ApplicationError, NodeConnectionTypes, type WorkflowExpression } from 'n8n-workflow';
+} from 'n9n-workflow';
+import { ApplicationError, NodeConnectionTypes, type WorkflowExpression } from 'n9n-workflow';
 
 import { describeCommonTests } from './shared-tests';
 import { ExecuteSingleContext } from '../execute-single-context';

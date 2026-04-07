@@ -10,14 +10,14 @@ import type {
 	Workflow,
 	WorkflowActivateMode,
 	WorkflowExecuteMode,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 import {
 	toCronExpression,
 	TriggerCloseError,
 	UserError,
 	WorkflowActivationError,
 	WorkflowDeactivationError,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 
 import { ErrorReporter } from '@/errors/error-reporter';
 import type { IWorkflowData } from '@/interfaces';

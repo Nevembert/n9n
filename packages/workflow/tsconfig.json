@@ -6,5 +6,11 @@
 		"types": ["vite/client", "vitest/globals"]
 	},
 	"include": ["src/**/*.ts", "test/**/*.ts", "vitest.config.ts"],
-	"exclude": ["node_modules"]
+	"exclude": ["node_modules"],
+	"references": [
+		{ "path": "../@n8n/errors/tsconfig.build.json" },
+		{ "path": "../@n8n/config/tsconfig.build.json" },
+		{ "path": "../@n8n/expression-runtime/tsconfig.build.esm.json" },
+		{ "path": "../@n8n/vitest-config/tsconfig.build.json" }
+	]
 }

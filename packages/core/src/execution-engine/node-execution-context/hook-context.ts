@@ -9,7 +9,7 @@ import type {
 	WorkflowExecuteMode,
 	IWebhookData,
 	WebhookType,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 
 import { NodeExecutionContext } from './node-execution-context';
 import { getRequestHelperFunctions } from './utils/request-helper-functions';

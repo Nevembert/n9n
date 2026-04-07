@@ -4,7 +4,7 @@ import type {
 	IExecutionContext,
 	IWorkflowSettings,
 	Result,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 import type { LookupFunction } from 'node:net';
 
 import type { ExecutionLifecycleHooks } from './execution-lifecycle-hooks';
@@ -23,7 +23,7 @@ export interface SsrfBridge {
 	createSecureLookup(): LookupFunction;
 }
 
-declare module 'n8n-workflow' {
+declare module 'n9n-workflow' {
 	interface IWorkflowExecuteAdditionalData {
 		hooks?: ExecutionLifecycleHooks;
 		externalSecretsProxy: ExternalSecretsProxy;

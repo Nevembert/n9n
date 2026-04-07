@@ -1,4 +1,4 @@
-import type { IRunData } from 'n8n-workflow';
+import type { IRunData } from 'n9n-workflow';
 
 /**
  * Calculates the next execution index by finding the highest existing index in the run data and incrementing by 1.

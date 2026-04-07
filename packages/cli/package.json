@@ -1,7 +1,7 @@
 {
-  "name": "n8n",
+  "name": "n9n",
   "version": "2.15.0",
-  "description": "n8n Workflow Automation Tool",
+  "description": "n9n Workspace Automation Tool",
   "main": "dist/index",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -39,15 +39,16 @@
     "watch": "tsc-watch -p tsconfig.build.json --onCompilationComplete \"tsc-alias -p tsconfig.build.json\""
   },
   "bin": {
-    "n8n": "./bin/n8n"
+    "n8n": "./bin/n8n",
+    "n9n": "./bin/n8n"
   },
   "keywords": [
     "automate",
     "automation",
     "IaaS",
     "iPaaS",
-    "n8n",
-    "workflow"
+    "n9n",
+    "workspace"
   ],
   "engines": {
     "node": ">=22.16"
@@ -169,10 +170,10 @@
     "ldapts": "4.2.6",
     "lodash": "catalog:",
     "luxon": "catalog:",
-    "n8n-core": "workspace:*",
-    "n8n-editor-ui": "workspace:*",
-    "n8n-nodes-base": "workspace:*",
-    "n8n-workflow": "workspace:*",
+    "n9n-core": "workspace:*",
+    "n9n-editor-ui": "workspace:*",
+    "n9n-nodes-base": "workspace:*",
+    "n9n-workflow": "workspace:*",
     "nanoid": "catalog:",
     "nodemailer": "catalog:",
     "oauth-1.0a": "2.2.6",

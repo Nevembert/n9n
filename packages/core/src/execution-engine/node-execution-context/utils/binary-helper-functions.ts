@@ -13,7 +13,7 @@ import type {
 	ITaskDataConnections,
 	IWorkflowExecuteAdditionalData,
 	WorkflowSettingsBinaryMode,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 import {
 	NodeOperationError,
 	fileTypeFromMimeType,
@@ -23,7 +23,7 @@ import {
 	BINARY_MODE_COMBINED,
 	BINARY_MODE_SEPARATE,
 	sanitizeFilename,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 import path from 'path';
 import type { Readable } from 'stream';
 import { URL } from 'url';

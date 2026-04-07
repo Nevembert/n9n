@@ -10,13 +10,13 @@ import type {
 	IWorkflowBase,
 	IWorkflowExecuteAdditionalData,
 	WorkflowTestData,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 import {
 	createDeferredPromise,
 	createRunExecutionData,
 	UnexpectedError,
 	Workflow,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 import nock from 'nock';
 import { readFileSync, mkdtempSync, existsSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';

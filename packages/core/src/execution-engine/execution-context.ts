@@ -5,7 +5,7 @@ import {
 	type WorkflowExecuteMode,
 	type IRunExecutionData,
 	type Workflow,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 
 import { assertExecutionDataExists } from '@/utils/assertions';
 

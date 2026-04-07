@@ -9,7 +9,7 @@ import {
 	type RelatedExecution,
 	type Workflow,
 	type WorkflowExecuteMode,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 
 import { establishExecutionContext } from '../execution-context';
 

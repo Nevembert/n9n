@@ -1,5 +1,5 @@
-import type { INodeExecutionData, IDataObject } from 'n8n-workflow';
-import { deepCopy } from 'n8n-workflow';
+import type { INodeExecutionData, IDataObject } from 'n9n-workflow';
+import { deepCopy } from 'n9n-workflow';
 
 /**
  * Returns a copy of the items which only contains the json data and

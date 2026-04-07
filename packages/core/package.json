@@ -1,5 +1,5 @@
 {
-  "name": "n8n-core",
+  "name": "n9n-core",
   "version": "2.15.0",
   "description": "Core functionality of n8n",
   "main": "dist/index",
@@ -67,7 +67,7 @@
     "luxon": "catalog:",
     "mime-types": "catalog:",
     "@n8n/workflow-sdk": "workspace:*",
-    "n8n-workflow": "workspace:*",
+    "n9n-workflow": "workspace:*",
     "nanoid": "catalog:",
     "oauth-1.0a": "2.2.6",
     "p-cancelable": "2.1.1",

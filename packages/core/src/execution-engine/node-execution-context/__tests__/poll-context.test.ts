@@ -10,7 +10,7 @@ import type {
 	WorkflowActivateMode,
 	WorkflowExecuteMode,
 	WorkflowExpression,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 
 import { PollContext } from '../poll-context';
 

@@ -1,5 +1,5 @@
 {
-  "name": "n8n-nodes-base",
+  "name": "n9n-nodes-base",
   "version": "2.15.0",
   "description": "Base nodes of n8n",
   "main": "index.js",
@@ -888,7 +888,7 @@
     "@types/xml2js": "catalog:",
     "eslint-plugin-n8n-nodes-base": "^1.16.5",
     "n8n-containers": "workspace:*",
-    "n8n-core": "workspace:*",
+    "n9n-core": "workspace:*",
     "vitest": "catalog:"
   },
   "dependencies": {
@@ -939,7 +939,7 @@
     "mqtt": "5.7.2",
     "mssql": "10.0.2",
     "mysql2": "catalog:",
-    "n8n-workflow": "workspace:*",
+    "n9n-workflow": "workspace:*",
     "node-html-markdown": "1.2.0",
     "node-ssh": "13.2.0",
     "nodemailer": "catalog:",

@@ -17,8 +17,8 @@ import type {
 	IWaitingForExecutionSource,
 	IPinData,
 	IRunData,
-} from 'n8n-workflow';
-import { NodeConnectionTypes } from 'n8n-workflow';
+} from 'n9n-workflow';
+import { NodeConnectionTypes } from 'n9n-workflow';
 
 import { createNodeData, toITaskData } from './helpers';
 import { DirectedGraph } from '../directed-graph';

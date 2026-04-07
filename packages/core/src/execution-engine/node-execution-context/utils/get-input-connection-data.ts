@@ -21,7 +21,7 @@ import type {
 	SupplyData,
 	Workflow,
 	WorkflowExecuteMode,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 import {
 	ApplicationError,
 	ExecutionBaseError,
@@ -30,7 +30,7 @@ import {
 	UserError,
 	sleepWithAbort,
 	isHitlToolType,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 import z, { ZodType } from 'zod';
 
 import { StructuredToolkit, type SupplyDataToolResponse } from './ai-tool-types';

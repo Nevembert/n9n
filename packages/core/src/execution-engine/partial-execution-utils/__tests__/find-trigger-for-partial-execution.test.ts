@@ -1,6 +1,6 @@
 import { mock } from 'jest-mock-extended';
-import type { IConnections, INode, INodeType, INodeTypes, IPinData, IRunData } from 'n8n-workflow';
-import { NodeConnectionTypes, Workflow } from 'n8n-workflow';
+import type { IConnections, INode, INodeType, INodeTypes, IPinData, IRunData } from 'n9n-workflow';
+import { NodeConnectionTypes, Workflow } from 'n9n-workflow';
 
 import { createNodeData, toIConnections, toITaskData } from './helpers';
 import { DirectedGraph } from '../directed-graph';

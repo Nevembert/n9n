@@ -5,7 +5,7 @@ import type {
 	SpanAttributes as SentrySpanAttributes,
 } from '@sentry/core';
 import type Sentry from '@sentry/node';
-import type { INode, IWorkflowBase } from 'n8n-workflow';
+import type { INode, IWorkflowBase } from 'n9n-workflow';
 
 import { NoopTracing } from './noop-tracing';
 

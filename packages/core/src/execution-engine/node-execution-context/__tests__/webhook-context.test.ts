@@ -11,7 +11,7 @@ import type {
 	Workflow,
 	WorkflowExecuteMode,
 	WorkflowExpression,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 
 import { WebhookContext } from '../webhook-context';
 

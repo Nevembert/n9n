@@ -67,8 +67,8 @@ import type {
 	ITaskDataConnections,
 	IWorkflowExecuteAdditionalData,
 	Workflow,
-} from 'n8n-workflow';
-import { NodeApiError, NodeOperationError, Node, createRunExecutionData } from 'n8n-workflow';
+} from 'n9n-workflow';
+import { NodeApiError, NodeOperationError, Node, createRunExecutionData } from 'n9n-workflow';
 
 import { ExecuteContext, PollContext } from '../node-execution-context';
 import { RoutingNode } from '../routing-node';
