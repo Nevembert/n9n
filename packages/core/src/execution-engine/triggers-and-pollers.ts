@@ -13,7 +13,7 @@ import type {
 	IExecuteResponsePromiseData,
 	IRun,
 	ExecutionError,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 import assert from 'node:assert';
 
 import type { IGetExecuteTriggerFunctions } from './interfaces';

@@ -5,11 +5,15 @@
 	],
 	"compilerOptions": {
 		"lib": ["es2022"],
-		"rootDir": ".",
+		"ignoreDeprecations": "6.0",
 		"baseUrl": "src",
 		"paths": {
 			"@/*": ["./*"],
-			"@test/*": ["../test/*"]
+			"@test/*": ["../test/*"],
+			"@n8n/di": ["../../@n8n/di/src/di.ts", "../../@n8n/di"],
+			"@n8n/*": ["../../@n8n/*/src/index.ts", "../../@n8n/*/src", "../../@n8n/*"],
+			"n9n-workflow": ["../../workflow/src/index.ts", "../../workflow"],
+			"n9n-workflow/src": ["../../workflow/src/index.ts"]
 		},
 		"tsBuildInfoFile": "dist/typecheck.tsbuildinfo",
 		"emitDecoratorMetadata": true,

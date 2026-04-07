@@ -6,8 +6,8 @@ import type {
 	IWorkflowExecuteAdditionalData,
 	IHttpRequestOptions,
 	Workflow,
-} from 'n8n-workflow';
-import { UserError } from 'n8n-workflow';
+} from 'n9n-workflow';
+import { UserError } from 'n9n-workflow';
 import nock from 'nock';
 import type { LookupAddress, LookupOptions } from 'node:dns';
 

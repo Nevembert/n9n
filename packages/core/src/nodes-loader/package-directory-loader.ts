@@ -1,4 +1,4 @@
-import { ApplicationError, jsonParse } from 'n8n-workflow';
+import { ApplicationError, jsonParse } from 'n9n-workflow';
 import { readFileSync } from 'node:fs';
 import { readFile } from 'node:fs/promises';
 

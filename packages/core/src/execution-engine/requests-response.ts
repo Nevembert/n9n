@@ -12,7 +12,7 @@ import {
 	type Workflow,
 	type EngineResponse,
 	UnexpectedError,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 
 import { ErrorReporter } from '../errors/error-reporter';
 

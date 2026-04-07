@@ -1,6 +1,6 @@
 import { mock } from 'jest-mock-extended';
-import { ExpressionError } from 'n8n-workflow';
-import type { IDataObject, IWorkflowExecuteAdditionalData } from 'n8n-workflow';
+import { ExpressionError } from 'n9n-workflow';
+import type { IDataObject, IWorkflowExecuteAdditionalData } from 'n9n-workflow';
 
 import type { ExternalSecretsProxy } from '@/execution-engine/external-secrets-proxy';
 

@@ -8,7 +8,7 @@ import {
 	toCredentialContext,
 	toExecutionContextEstablishmentHookParameter,
 	Workflow,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 
 import { Cipher } from '@/encryption';
 import { deepMerge } from '@/utils/deep-merge';

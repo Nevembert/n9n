@@ -10,8 +10,8 @@ import type {
 	WorkflowExecuteMode,
 	ITaskDataConnections,
 	IExecuteData,
-} from 'n8n-workflow';
-import { ApplicationError, createDeferredPromise, NodeConnectionTypes } from 'n8n-workflow';
+} from 'n9n-workflow';
+import { ApplicationError, createDeferredPromise, NodeConnectionTypes } from 'n9n-workflow';
 
 import { BaseExecuteContext } from './base-execute-context';
 import {

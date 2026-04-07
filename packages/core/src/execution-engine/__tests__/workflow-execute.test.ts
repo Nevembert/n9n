@@ -32,7 +32,7 @@ import type {
 	IExecuteFunctions,
 	IDataObject,
 	IDestinationNode,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 import {
 	ApplicationError,
 	createDeferredPromise,
@@ -43,7 +43,7 @@ import {
 	NodeOperationError,
 	Workflow,
 	BINARY_MODE_COMBINED,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 import assert from 'node:assert';
 
 import * as Helpers from '@test/helpers';

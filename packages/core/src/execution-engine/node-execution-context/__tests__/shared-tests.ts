@@ -15,8 +15,8 @@ import type {
 	RelatedExecution,
 	IExecuteWorkflowInfo,
 	IExecutionContext,
-} from 'n8n-workflow';
-import { ApplicationError, NodeHelpers, WAIT_INDEFINITELY } from 'n8n-workflow';
+} from 'n9n-workflow';
+import { ApplicationError, NodeHelpers, WAIT_INDEFINITELY } from 'n9n-workflow';
 
 import { BinaryDataService } from '@/binary-data/binary-data.service';
 

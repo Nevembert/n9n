@@ -26,7 +26,7 @@
     "@n8n/config": "workspace:*"
   },
   "dependencies": {
-    "n8n-workflow": "workspace:*",
+    "n9n-workflow": "workspace:*",
     "xss": "catalog:",
     "zod": "catalog:",
     "@n8n/permissions": "workspace:*"

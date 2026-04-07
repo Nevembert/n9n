@@ -1,6 +1,6 @@
 import { mock } from 'jest-mock-extended';
-import type { IRunExecutionData, IWorkflowExecuteAdditionalData, Workflow } from 'n8n-workflow';
-import { UnexpectedError } from 'n8n-workflow';
+import type { IRunExecutionData, IWorkflowExecuteAdditionalData, Workflow } from 'n9n-workflow';
+import { UnexpectedError } from 'n9n-workflow';
 
 import { assertExecutionDataExists } from '../assertions';
 

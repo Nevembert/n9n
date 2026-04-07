@@ -10,8 +10,8 @@ import type {
 	Workflow,
 	WorkflowExecuteMode,
 	WorkflowExpression,
-} from 'n8n-workflow';
-import { CHAT_TRIGGER_NODE_TYPE, createRunExecutionData, NodeConnectionTypes } from 'n8n-workflow';
+} from 'n9n-workflow';
+import { CHAT_TRIGGER_NODE_TYPE, createRunExecutionData, NodeConnectionTypes } from 'n9n-workflow';
 
 import { InstanceSettings } from '@/instance-settings';
 

@@ -1,5 +1,5 @@
-import type { INodeProperties } from 'n8n-workflow';
-import { cronNodeOptions } from 'n8n-workflow';
+import type { INodeProperties } from 'n9n-workflow';
+import { cronNodeOptions } from 'n9n-workflow';
 
 export const CUSTOM_NODES_CATEGORY = 'Custom Nodes';
 export const CUSTOM_NODES_PACKAGE_NAME = 'CUSTOM';

@@ -33,7 +33,7 @@
     "format:check": "biome ci . && prettier --check . --ignore-path ../../../../.prettierignore"
   },
   "dependencies": {
-    "n8n-workflow": "workspace:*",
+    "n9n-workflow": "workspace:*",
     "vue-i18n": "catalog:frontend"
   },
   "devDependencies": {

@@ -71,7 +71,7 @@
     "langchain": "catalog:",
     "langsmith": "^0.4.6",
     "lodash": "catalog:",
-    "n8n-workflow": "workspace:*",
+    "n9n-workflow": "workspace:*",
     "picocolors": "catalog:",
     "turndown": "^7.2.2",
     "zod": "catalog:"

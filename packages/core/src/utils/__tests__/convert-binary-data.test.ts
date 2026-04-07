@@ -1,6 +1,6 @@
 import { Container } from '@n8n/di';
-import type { IBinaryData, IRunNodeResponse } from 'n8n-workflow';
-import { BINARY_ENCODING, BINARY_IN_JSON_PROPERTY, BINARY_MODE_COMBINED } from 'n8n-workflow';
+import type { IBinaryData, IRunNodeResponse } from 'n9n-workflow';
+import { BINARY_ENCODING, BINARY_IN_JSON_PROPERTY, BINARY_MODE_COMBINED } from 'n9n-workflow';
 
 import type { BinaryDataConfig } from '../../binary-data/binary-data.config';
 import * as binaryHelperFunctions from '../../execution-engine/node-execution-context/utils/binary-helper-functions';

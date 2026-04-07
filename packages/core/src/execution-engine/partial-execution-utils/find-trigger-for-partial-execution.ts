@@ -5,7 +5,7 @@ import {
 	type INodeType,
 	type IRunData,
 	type Workflow,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 
 import type { DirectedGraph } from './directed-graph';
 

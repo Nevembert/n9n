@@ -1,5 +1,5 @@
 import { mock } from 'jest-mock-extended';
-import type { INodeType, ISupplyDataFunctions, INode } from 'n8n-workflow';
+import type { INodeType, ISupplyDataFunctions, INode } from 'n9n-workflow';
 import { z } from 'zod';
 
 import { createNodeAsTool } from '../create-node-as-tool';

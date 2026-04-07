@@ -8,22 +8,22 @@ import type {
 	INodeExecutionData,
 	PlaintextExecutionContext,
 	Workflow,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 
 import type { Cipher } from '@/encryption';
 
 import type { ExecutionContextHookRegistry } from '../execution-context-hook-registry.service';
 import { ExecutionContextService } from '../execution-context.service';
 
-// Mock the helper functions from n8n-workflow
-jest.mock('n8n-workflow', () => ({
-	...jest.requireActual('n8n-workflow'),
+// Mock the helper functions from n9n-workflow
+jest.mock('n9n-workflow', () => ({
+	...jest.requireActual('n9n-workflow'),
 	toCredentialContext: jest.fn((data: string) => JSON.parse(data)),
 	toExecutionContextEstablishmentHookParameter: jest.fn(),
 }));
 
 const { toCredentialContext, toExecutionContextEstablishmentHookParameter } =
-	jest.requireMock('n8n-workflow');
+	jest.requireMock('n9n-workflow');
 
 describe('ExecutionContextService', () => {
 	let service: ExecutionContextService;
@@ -264,7 +264,7 @@ describe('ExecutionContextService', () => {
 
 		it('should handle node with contextEstablishmentHooks but undefined hooks array', async () => {
 			// Temporarily use real parsing function
-			const realModule = jest.requireActual('n8n-workflow');
+			const realModule = jest.requireActual('n9n-workflow');
 			toExecutionContextEstablishmentHookParameter.mockImplementationOnce(
 				realModule.toExecutionContextEstablishmentHookParameter,
 			);

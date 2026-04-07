@@ -1,7 +1,7 @@
 import { Logger } from '@n8n/backend-common';
 import { Config, Env } from '@n8n/config';
 import { Service } from '@n8n/di';
-import type { SSHCredentials } from 'n8n-workflow';
+import type { SSHCredentials } from 'n9n-workflow';
 import { createHash } from 'node:crypto';
 import { Client, type ConnectConfig } from 'ssh2';
 import { z } from 'zod';

@@ -16,7 +16,7 @@ import {
 } from '@aws-sdk/client-s3';
 import { Logger } from '@n8n/backend-common';
 import { Service } from '@n8n/di';
-import { UnexpectedError } from 'n8n-workflow';
+import { UnexpectedError } from 'n9n-workflow';
 import { createHash } from 'node:crypto';
 import { Readable } from 'node:stream';
 

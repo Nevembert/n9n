@@ -22,7 +22,7 @@ import type {
 	NodeConnectionType,
 	Result,
 	IExecuteFunctions,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 import {
 	ApplicationError,
 	NodeHelpers,
@@ -30,7 +30,7 @@ import {
 	WAIT_INDEFINITELY,
 	WorkflowDataProxy,
 	createEnvProviderState,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 
 import { NodeExecutionContext } from './node-execution-context';
 

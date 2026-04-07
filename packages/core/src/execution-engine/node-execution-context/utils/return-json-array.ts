@@ -1,4 +1,4 @@
-import type { IDataObject, INodeExecutionData } from 'n8n-workflow';
+import type { IDataObject, INodeExecutionData } from 'n9n-workflow';
 
 /**
  * Takes generic input data and brings it into the json format n8n uses.

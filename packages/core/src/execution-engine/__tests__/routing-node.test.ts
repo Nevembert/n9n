@@ -18,9 +18,9 @@ import type {
 	IRunExecutionData,
 	ITaskDataConnections,
 	IWorkflowExecuteAdditionalData,
-} from 'n8n-workflow';
-import { Workflow, createEmptyRunExecutionData } from 'n8n-workflow';
-import type { ICredentialsDecrypted } from 'n8n-workflow/src';
+} from 'n9n-workflow';
+import { Workflow, createEmptyRunExecutionData } from 'n9n-workflow';
+import type { ICredentialsDecrypted } from 'n9n-workflow/src';
 
 import * as executionContexts from '@/execution-engine/node-execution-context';
 import { DirectoryLoader } from '@/nodes-loader';
@@ -2142,7 +2142,7 @@ describe('RoutingNode', () => {
 					}
 				}
 
-				const workflowPackage = await import('n8n-workflow');
+				const workflowPackage = await import('n9n-workflow');
 				const spy = jest.spyOn(workflowPackage, 'sleep').mockReturnValue(
 					new Promise((resolve) => {
 						resolve();

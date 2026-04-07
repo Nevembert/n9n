@@ -38,7 +38,7 @@
     "@n8n/permissions": "workspace:*",
     "@n8n/utils": "workspace:*",
     "js-base64": "catalog:",
-    "n8n-workflow": "workspace:*",
+    "n9n-workflow": "workspace:*",
     "axios": "catalog:",
     "flatted": "catalog:"
   },

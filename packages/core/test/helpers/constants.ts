@@ -3,8 +3,8 @@ import type {
 	INodeExecutionData,
 	INodeTypeData,
 	WorkflowTestData,
-} from 'n8n-workflow';
-import { NodeConnectionTypes } from 'n8n-workflow';
+} from 'n9n-workflow';
+import { NodeConnectionTypes } from 'n9n-workflow';
 
 import { If } from '../../../nodes-base/dist/nodes/If/If.node';
 import { ManualTrigger } from '../../../nodes-base/dist/nodes/ManualTrigger/ManualTrigger.node';

@@ -1,6 +1,6 @@
 import type { StartSpanOptions } from '@sentry/core';
 import { mock } from 'jest-mock-extended';
-import type { INode, Workflow } from 'n8n-workflow';
+import type { INode, Workflow } from 'n9n-workflow';
 
 import { EmptySpan, NoopTracing } from '../noop-tracing';
 import { type Span, Tracing, type Tracer } from '../tracing';

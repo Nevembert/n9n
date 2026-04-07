@@ -37,7 +37,7 @@
     "@types/mime-types": "catalog:",
     "tsx": "catalog:",
     "axios": "catalog:",
-    "n8n-workflow": "workspace:*"
+    "n9n-workflow": "workspace:*"
   },
   "dependencies": {
     "zod": "catalog:",
@@ -57,6 +57,6 @@
     "undici": "^6.21.0"
   },
   "peerDependencies": {
-    "n8n-workflow": "*"
+    "n9n-workflow": "*"
   }
 }

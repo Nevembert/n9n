@@ -3,7 +3,7 @@ import { QueryFailedError } from '@n8n/typeorm';
 import type { ErrorEvent } from '@sentry/core';
 import { AxiosError } from 'axios';
 import { mock } from 'jest-mock-extended';
-import { ApplicationError, BaseError } from 'n8n-workflow';
+import { ApplicationError, BaseError } from 'n9n-workflow';
 
 import { ErrorReporter } from '../error-reporter';
 

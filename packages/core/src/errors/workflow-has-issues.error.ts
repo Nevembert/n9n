@@ -1,4 +1,4 @@
-import { WorkflowOperationError } from 'n8n-workflow';
+import { WorkflowOperationError } from 'n9n-workflow';
 
 export class WorkflowHasIssuesError extends WorkflowOperationError {
 	constructor() {

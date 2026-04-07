@@ -1,6 +1,6 @@
 import { SecurityConfig } from '@n8n/config';
 import { Container } from '@n8n/di';
-import type { INode } from 'n8n-workflow';
+import type { INode } from 'n9n-workflow';
 import { constants } from 'node:fs';
 import {
 	access as fsAccess,

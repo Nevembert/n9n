@@ -1,5 +1,5 @@
 import { Container } from '@n8n/di';
-import type { SSHTunnelFunctions } from 'n8n-workflow';
+import type { SSHTunnelFunctions } from 'n9n-workflow';
 import type { Client } from 'ssh2';
 
 import { SSHClientsManager } from '../../ssh-clients-manager';

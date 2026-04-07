@@ -3,7 +3,7 @@ import type {
 	IWorkflowDataProxyAdditionalKeys,
 	IWorkflowExecuteAdditionalData,
 	WorkflowExecuteMode,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 
 import { PLACEHOLDER_EMPTY_EXECUTION_ID, WAITING_TOKEN_QUERY_PARAM } from '@/constants';
 

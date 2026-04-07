@@ -1,5 +1,5 @@
 import get from 'lodash/get';
-import { ApplicationError, resolveRelativePath, Workflow } from 'n8n-workflow';
+import { ApplicationError, resolveRelativePath, Workflow } from 'n9n-workflow';
 import type {
 	INodeParameterResourceLocator,
 	IWorkflowExecuteAdditionalData,
@@ -8,7 +8,7 @@ import type {
 	IWorkflowLoader,
 	IWorkflowNodeContext,
 	INodeTypes,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 
 import { LoadWorkflowNodeContext } from './workflow-node-context';
 

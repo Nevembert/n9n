@@ -47,8 +47,8 @@
     "change-case": "^4.1.1",
     "fast-glob": "catalog:",
     "inquirer": "^7.0.1",
-    "n8n-core": "workspace:*",
-    "n8n-workflow": "workspace:*",
+    "n9n-core": "workspace:*",
+    "n9n-workflow": "workspace:*",
     "replace-in-file": "^6.0.0",
     "tmp-promise": "^3.0.3"
   }

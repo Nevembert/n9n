@@ -18,13 +18,13 @@ import type {
 	Workflow,
 	WorkflowExecuteMode,
 	EngineResponse,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 import {
 	ApplicationError,
 	createDeferredPromise,
 	jsonParse,
 	NodeConnectionTypes,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 
 import { BaseExecuteContext } from './base-execute-context';
 import {

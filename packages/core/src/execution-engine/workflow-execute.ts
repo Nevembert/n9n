@@ -41,7 +41,7 @@ import type {
 	EngineRequest,
 	EngineResponse,
 	IDestinationNode,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 import {
 	LoggerProxy as Logger,
 	NodeHelpers,
@@ -55,7 +55,7 @@ import {
 	TimeoutExecutionCancelledError,
 	ManualExecutionCancelledError,
 	createRunExecutionData,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 import PCancelable from 'p-cancelable';
 
 import { ErrorReporter } from '@/errors/error-reporter';
@@ -1735,7 +1735,7 @@ export class WorkflowExecute {
 								}
 
 								if (runNodeData.closeFunction) {
-									// Explanation why we do this can be found in n8n-workflow/Workflow.ts -> runNode
+									// Explanation why we do this can be found in n9n-workflow/Workflow.ts -> runNode
 
 									closeFunction = runNodeData.closeFunction();
 								}

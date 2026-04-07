@@ -15,8 +15,8 @@ import type {
 	INodeTypeNameVersion,
 	IVersionedNodeType,
 	KnownNodesAndCredentials,
-} from 'n8n-workflow';
-import { ApplicationError, isExpression, isSubNodeType, UnexpectedError } from 'n8n-workflow';
+} from 'n9n-workflow';
+import { ApplicationError, isExpression, isSubNodeType, UnexpectedError } from 'n9n-workflow';
 import { realpathSync } from 'node:fs';
 import * as path from 'path';
 

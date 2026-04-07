@@ -28,7 +28,7 @@
     "@n8n/di": "workspace:*",
     "callsites": "catalog:",
     "flatted": "catalog:",
-    "n8n-workflow": "workspace:*",
+    "n9n-workflow": "workspace:*",
     "stream-json": "catalog:",
     "picocolors": "catalog:",
     "reflect-metadata": "catalog:",

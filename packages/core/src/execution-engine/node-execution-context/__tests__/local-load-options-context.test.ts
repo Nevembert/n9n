@@ -5,14 +5,14 @@ import type {
 	IWorkflowBase,
 	IWorkflowExecuteAdditionalData,
 	IWorkflowLoader,
-} from 'n8n-workflow';
-import { ApplicationError, Workflow } from 'n8n-workflow';
+} from 'n9n-workflow';
+import { ApplicationError, Workflow } from 'n9n-workflow';
 
 import { LocalLoadOptionsContext } from '../local-load-options-context';
 import { LoadWorkflowNodeContext } from '../workflow-node-context';
 
-jest.mock('n8n-workflow', () => ({
-	...jest.requireActual('n8n-workflow'),
+jest.mock('n9n-workflow', () => ({
+	...jest.requireActual('n9n-workflow'),
 	Workflow: jest.fn(),
 }));
 

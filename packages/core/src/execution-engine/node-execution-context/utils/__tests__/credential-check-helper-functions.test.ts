@@ -1,7 +1,7 @@
 import type {
 	IWorkflowExecuteAdditionalData,
 	DynamicCredentialCheckProxyProvider,
-} from 'n8n-workflow';
+} from 'n9n-workflow';
 
 import { getCredentialCheckHelperFunctions } from '../credential-check-helper-functions';
 

@@ -1,4 +1,4 @@
-import { UserError } from 'n8n-workflow';
+import { UserError } from 'n9n-workflow';
 
 export class FileTooLargeError extends UserError {
 	constructor({

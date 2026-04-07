@@ -14,6 +14,6 @@
 		"@codspeed/vitest-plugin": "^5.2.0",
     "@n8n/expression-runtime": "workspace:*",
     "vitest": "catalog:",
-		"n8n-workflow": "workspace:*"
+		"n9n-workflow": "workspace:*"
 	}
 }

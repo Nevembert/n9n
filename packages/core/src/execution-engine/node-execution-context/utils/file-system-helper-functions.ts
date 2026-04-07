@@ -1,8 +1,8 @@
 import { isContainedWithin, safeJoinPath } from '@n8n/backend-common';
 import { SecurityConfig } from '@n8n/config';
 import { Container } from '@n8n/di';
-import { NodeOperationError } from 'n8n-workflow';
-import type { FileSystemHelperFunctions, INode, ResolvedFilePath } from 'n8n-workflow';
+import { NodeOperationError } from 'n9n-workflow';
+import type { FileSystemHelperFunctions, INode, ResolvedFilePath } from 'n9n-workflow';
 import type { PathLike } from 'node:fs';
 import { constants } from 'node:fs';
 import {

@@ -34,6 +34,6 @@
     "@n8n/di": "workspace:*",
     "@n8n/permissions": "workspace:*",
     "lodash": "catalog:",
-    "n8n-workflow": "workspace:*"
+    "n9n-workflow": "workspace:*"
   }
 }

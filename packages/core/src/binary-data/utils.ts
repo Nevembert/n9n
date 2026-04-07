@@ -1,4 +1,4 @@
-import { UnexpectedError } from 'n8n-workflow';
+import { UnexpectedError } from 'n9n-workflow';
 import type { Readable } from 'node:stream';
 
 import type { BinaryData } from './types';

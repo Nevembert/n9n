@@ -1,7 +1,7 @@
 {
-  "name": "n8n-editor-ui",
+  "name": "n9n-editor-ui",
   "version": "2.15.0",
-  "description": "Workflow Editor UI for n8n",
+  "description": "Workspace Editor UI for n9n",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -84,7 +84,7 @@
     "lodash": "catalog:",
     "luxon": "catalog:",
     "markdown-it-footnote": "^4.0.0",
-    "n8n-workflow": "workspace:*",
+    "n9n-workflow": "workspace:*",
     "nanoid": "catalog:",
     "pinia": "catalog:frontend",
     "prettier": "^3.3.3",
