@@ -59,3 +59,6 @@ packages/cli/src/commands/export/outputs
 .claude/plans/
 lefthook-local.yml
 .playwright-mcp
+rebrand-report.json
+openclaw/examples/generated.workspace.json
+openclaw/examples/generated.workspace.mermaid

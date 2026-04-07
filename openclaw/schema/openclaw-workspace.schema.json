@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://n9n.local/schemas/openclaw-workspace.schema.json",
+  "title": "OpenClaw Workspace",
+  "type": "object",
+  "required": ["workspace", "agents", "graph", "memory", "tasks", "skills", "datastores", "connections"],
+  "properties": {
+    "workspace": {
+      "type": "object",
+      "required": ["id", "name", "goal", "factoryAgentId"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "goal": { "type": "string", "minLength": 1 },
+        "factoryAgentId": { "type": "string", "minLength": 1 },
+        "metadata": { "type": "object", "additionalProperties": true }
+      },
+      "additionalProperties": false
+    },
+    "agents": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "role", "model", "skills", "memory"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "name": { "type": "string", "minLength": 1 },
+          "role": { "type": "string", "minLength": 1 },
+          "model": { "type": "string", "minLength": 1 },
+          "skills": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+          "memory": {
+            "type": "object",
+            "required": ["shortTerm", "longTerm"],
+            "properties": {
+              "shortTerm": { "type": "string" },
+              "longTerm": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "graph": {
+      "type": "object",
+      "required": ["nodes", "edges"],
+      "properties": {
+        "nodes": { "type": "array", "items": { "type": "string" } },
+        "edges": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["from", "to", "label"],
+            "properties": {
+              "from": { "type": "string" },
+              "to": { "type": "string" },
+              "label": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "memory": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "agentId", "kind", "summary"],
+        "properties": {
+          "id": { "type": "string" },
+          "agentId": { "type": "string" },
+          "kind": { "type": "string", "enum": ["short_term", "long_term", "episodic", "semantic"] },
+          "summary": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "tasks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "status", "ownerAgentId"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "status": { "type": "string", "enum": ["queued", "running", "blocked", "done"] },
+          "ownerAgentId": { "type": "string" },
+          "dependsOn": { "type": "array", "items": { "type": "string" } }
+        },
+        "additionalProperties": false
+      }
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "description"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "description": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "datastores": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "engine", "purpose"],
+        "properties": {
+          "id": { "type": "string" },
+          "engine": { "type": "string" },
+          "purpose": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "connections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source", "target", "kind"],
+        "properties": {
+          "source": { "type": "string" },
+          "target": { "type": "string" },
+          "kind": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

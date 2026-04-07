@@ -4,8 +4,8 @@
  * Created to ease the running of binaries on cross-platform teams.
  * Enabled writing startup scripts once, but defaulting to platform specific runners.
  *
- * Usage: node scripts/os-normalize.mjs --dir packages/cli/bin n8n
- * Usage (with args): node scripts/os-normalize.mjs --dir packages/cli/bin -- n8n --help
+ * Usage: node scripts/os-normalize.mjs --dir packages/cli/bin n9n
+ * Usage (with args): node scripts/os-normalize.mjs --dir packages/cli/bin -- n9n --help
  * */
 
 import { $, argv, cd, chalk, echo, usePowerShell, fs } from 'zx';

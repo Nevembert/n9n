@@ -1,0 +1,119 @@
+{
+  "workspace": {
+    "id": "openclaw-agentic-research",
+    "name": "OpenClaw Agentic Research",
+    "goal": "Build and maintain OpenClaw agents with centralized factory orchestration",
+    "factoryAgentId": "factory-agent-1",
+    "metadata": {
+      "createdAt": "2026-04-07T00:00:00.000Z",
+      "owner": "openclaw",
+      "version": "0.1.0"
+    }
+  },
+  "agents": [
+    {
+      "id": "factory-agent-1",
+      "name": "Factory Agent",
+      "role": "workspace_orchestrator",
+      "model": "gpt-5.3-codex",
+      "skills": [
+        "workspace-edit",
+        "task-synthesis",
+        "memory-layout"
+      ],
+      "memory": {
+        "shortTerm": "Tracks active change sets",
+        "longTerm": "Stores stable OpenClaw architecture patterns"
+      }
+    },
+    {
+      "id": "planner-agent-1",
+      "name": "Planner Agent",
+      "role": "goal_decomposition",
+      "model": "gpt-5.3-codex",
+      "skills": [
+        "roadmap",
+        "dependency-planning"
+      ],
+      "memory": {
+        "shortTerm": "Recent plan updates",
+        "longTerm": "Historical planning outcomes"
+      }
+    }
+  ],
+  "graph": {
+    "nodes": [
+      "W",
+      "A_factory_agent_1",
+      "A_planner_agent_1"
+    ],
+    "edges": [
+      {
+        "from": "W",
+        "to": "A_factory_agent_1",
+        "label": "contains"
+      },
+      {
+        "from": "W",
+        "to": "A_planner_agent_1",
+        "label": "contains"
+      }
+    ]
+  },
+  "memory": [
+    {
+      "id": "memory-factory-architecture",
+      "agentId": "factory-agent-1",
+      "kind": "long_term",
+      "summary": "Canonical OpenClaw workspace architecture"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-define-agents",
+      "title": "Define first OpenClaw agent cluster",
+      "status": "running",
+      "ownerAgentId": "planner-agent-1"
+    },
+    {
+      "id": "task-apply-workspace-edits",
+      "title": "Apply workspace edits through Factory Agent",
+      "status": "queued",
+      "ownerAgentId": "factory-agent-1",
+      "dependsOn": [
+        "task-define-agents"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "id": "workspace-edit",
+      "name": "Workspace Edit",
+      "description": "Changes graph, memory, and tasks atomically"
+    },
+    {
+      "id": "memory-layout",
+      "name": "Memory Layout",
+      "description": "Maintains short/long/episodic/semantic memory tiers"
+    }
+  ],
+  "datastores": [
+    {
+      "id": "workspace-graph-db",
+      "engine": "postgresql+pgvector",
+      "purpose": "Workspace graph and retrieval indexes"
+    }
+  ],
+  "connections": [
+    {
+      "source": "agent:factory-agent-1",
+      "target": "datastore:workspace-graph-db",
+      "kind": "reads_writes"
+    },
+    {
+      "source": "agent:planner-agent-1",
+      "target": "agent:factory-agent-1",
+      "kind": "submits_edit_plan"
+    }
+  ]
+}
