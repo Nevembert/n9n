@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Third-Party License Generator for n8n
+ * Third-Party License Generator for n9n
  *
  * Generates THIRD_PARTY_LICENSES.md by scanning all dependencies using license-checker,
  * extracting license information, and formatting it into a markdown report.
@@ -245,9 +245,9 @@ function createLicenseTextSection(licenseType, licenseText) {
 function createDocumentHeader() {
 	return `# Third-Party Licenses
 
-This file lists third-party software components included in n8n and their respective license terms.
+This file lists third-party software components included in n9n and their respective license terms.
 
-The n8n software includes open source packages, libraries, and modules, each of which is subject to its own license. The following sections list those dependencies and provide required attributions and license texts.
+The n9n software includes open source packages, libraries, and modules, each of which is subject to its own license. The following sections list those dependencies and provide required attributions and license texts.
 
 `;
 }
@@ -279,7 +279,7 @@ function buildMarkdownDocument(packages) {
 // #endregion ===== Document Generation =====
 
 async function generateThirdPartyLicenses() {
-	echo(chalk.blue('🚀 Generating third-party licenses for n8n...'));
+	echo(chalk.blue('🚀 Generating third-party licenses for n9n...'));
 
 	try {
 		const licensesJsonPath = await generateLicenseData();

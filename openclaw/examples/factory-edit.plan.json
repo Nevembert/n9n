@@ -1,0 +1,42 @@
+[
+  {
+    "op": "upsert",
+    "entity": "agents",
+    "item": {
+      "id": "memory-agent-1",
+      "name": "Memory Agent",
+      "role": "memory_curator",
+      "model": "gpt-5.3-codex",
+      "skills": ["memory-layout"],
+      "memory": {
+        "shortTerm": "Recent memory updates",
+        "longTerm": "Historic retrieval policies"
+      }
+    }
+  },
+  {
+    "op": "upsert",
+    "entity": "tasks",
+    "item": {
+      "id": "task-memory-graph-index",
+      "title": "Build memory graph index",
+      "status": "queued",
+      "ownerAgentId": "memory-agent-1"
+    }
+  },
+  {
+    "op": "upsert",
+    "entity": "connections",
+    "item": {
+      "source": "agent:memory-agent-1",
+      "target": "datastore:workspace-graph-db",
+      "kind": "indexes_memory"
+    }
+  },
+  {
+    "op": "patchWorkspace",
+    "patch": {
+      "goal": "Automate OpenClaw workspace creation, memory indexing, and topology edits"
+    }
+  }
+]
